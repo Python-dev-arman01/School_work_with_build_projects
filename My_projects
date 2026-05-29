@@ -1,0 +1,24 @@
+import time
+
+def show_time():
+    # 1. Variable & Data Type (str)
+    title: str = "[ TIME INDICATOR PRO ]"
+    print(title)
+    
+    # 2. List & 3. Sets
+    valid_hours: set = set(list(range(24)))
+    valid_mins: set = set(list(range(60)))
+    
+    # 4. Loop
+    while True:
+        # 5. सीधा Integer (int) में लाइव समय लिया
+        
+        hr: int = time.localtime().tm_hour
+        mn: int = time.localtime().tm_min
+        
+        
+        print(f"Success: Current Time is {hr:02d}:{mn:02d}")
+        break
+
+# 7. Function Call
+show_time()
