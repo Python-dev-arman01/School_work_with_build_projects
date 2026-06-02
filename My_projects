@@ -1,3 +1,6 @@
+#----Day1--------
+#----Project_Live_time_show-----
+
 import time
 
 def show_time():
@@ -22,3 +25,22 @@ def show_time():
 
 # 7. Function Call
 show_time()
+
+
+
+
+#-----Day2---------------
+#-----project_calendar----
+
+
+def calendar():
+	import calendar
+	y=2026
+	m=1
+	for i in range(1,13):
+		mm=(m*i)
+		print(calendar.month(y,mm))
+		
+calendar()
+	
+
