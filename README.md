@@ -114,6 +114,42 @@ Mo Tu We Th Fr Sa Su
     February 2026
 Mo Tu We Th Fr Sa Su
 ...
+#============================================================
+#============project_number2======================
+# 📊 Student Report Card Generator
+
+Hi there! 👋 I am a **Class 11 (PCM)** student learning Python, and this is one of my core logic-building projects. 
+
+This program takes student marks as input, processes them using Python dictionaries and loops, and exports a beautifully formatted report card directly into a text file using **File I/O**.
+
+## 🚀 Features
+* **Dynamic Float Inputs:** Accepts decimal marks (e.g., 85.5) for accuracy.
+* **Data Collections:** Uses Python dictionaries to link subjects with their respective marks.
+* **Automated Logic:** Uses a `for` loop to calculate total marks dynamically.
+* **Persistent Storage:** Automatically creates and writes a clean `report_card.txt` file.
+
+## 🛠️ How It Works
+1. Run the `report_card.py` script.
+2. Enter marks for **Physics**, **Chemistry**, and **Maths**.
+3. Check your local folder—a new file named `report_card.txt` will be created with your results!
+
+### Sample Output (`report_card.txt`):
+```text
+====== YOUR REPORT CARD ======
+Physics: 85.0
+Chemistry: 90.0
+Maths: 95.0
+------------------------------
+Total Marks: 270.0/300
+Percentage: 90.00%
+==============================
 ```
+
+## 📱 Developed On
+* Written entirely on a **mobile device** using Python learning resources from *Apna College* and *CodeWithHarry*.
+
+---
+⭐ Feel free to star this repository if you like my learning journey!
+
 
 
